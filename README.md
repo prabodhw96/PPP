@@ -9,5 +9,8 @@ Install the following dependencies using pip:
 * pandas
 * streamlit
 
+## Demo
+![Demo](https://raw.githubusercontent.com/prabodhw96/PPP/master/demo.gif)
+
 ## Usage
 ``$ streamlit run app.py``
