@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 DATA_URL = (
-    "D:/Prabodh/PPP Converter/data.csv"
+    "data.csv"
 )
 
 st.title("Salary Converter")
