@@ -3,14 +3,21 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-def write():
-	DATA_URL = (
+
+DATA_URL = (
 		"capital.csv"
 	)
 
+@st.cache(persist=True)
+def load_data():
+	data = pd.read_csv(DATA_URL)
+	return data
+
+def write():
+
 	st.title("World Map")
 
-	data = pd.read_csv(DATA_URL)
+	data = load_data()
 
 	feature = st.selectbox("Search by", [" ", "Country", "Capital", "Currency Name"])
 	if feature != " ":
@@ -23,7 +30,7 @@ def write():
 	                        hover_name="Country", hover_data=["Capital", "Currency"],
 	                        color_discrete_sequence=["fuchsia"], zoom=10, height=500)
 		fig.update_traces(marker_size=12.5)
-		fig.update_layout(mapbox_style="open-street-map")
+		fig.update_layout(mapbox_style="carto-positron")
 		fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 		st.write(fig)
 	else:
@@ -32,6 +39,6 @@ def write():
 	                        hover_name="Country", hover_data=["Capital", "Currency"],
 	                        color_discrete_sequence=["fuchsia"], zoom=0, height=500)
 		fig.update_traces(marker_size=8)
-		fig.update_layout(mapbox_style="open-street-map")
+		fig.update_layout(mapbox_style="carto-positron")
 		fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 		st.write(fig)
