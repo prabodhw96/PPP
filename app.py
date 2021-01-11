@@ -2,11 +2,13 @@ import streamlit as st
 
 import awesome_streamlit as ast
 import converter
+import cap_map
 
 ast.core.services.other.set_logging_format()
 
 PAGES = {
 	"Salary Converter": converter,
+	"Map": cap_map
 }
 
 def main():

@@ -2,3 +2,4 @@ numpy
 pandas
 streamlit==0.69
 awesome_streamlit
+plotly
