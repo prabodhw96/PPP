@@ -12,7 +12,6 @@ PAGES = {
 }
 
 def main():
-	#st.markdown("<h1 style='text-align: center;'>NPI RL</h1>", unsafe_allow_html=True)
 	st.sidebar.title("Navigation")
 	selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 
