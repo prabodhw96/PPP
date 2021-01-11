@@ -27,7 +27,7 @@ def write():
 		data = data[data[feature] == feature_name]
 		fig = px.scatter_mapbox(data,
 	                        lat="latitude", lon="longitude",
-	                        hover_name="Country", hover_data=["Capital", "Currency"],
+	                        hover_name="Country", hover_data=["Capital", "Currency", "Currency Name"],
 	                        color_discrete_sequence=["fuchsia"], zoom=10, height=500)
 		fig.update_traces(marker_size=12.5)
 		fig.update_layout(mapbox_style="carto-positron")
