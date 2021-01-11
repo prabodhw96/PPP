@@ -2,20 +2,25 @@ import numpy as numpy
 import pandas as pd
 import streamlit as st
 
-DATA_URL = (
+#DATA_URL = (
+#	    "data.csv"
+#	)
+
+#@st.cache(persist=True)
+#def load_data():
+#	data = pd.read_csv(DATA_URL)
+#	return data
+
+def write():
+	DATA_URL = (
 	    "data.csv"
 	)
 
-@st.cache(persist=True)
-def load_data():
-	data = pd.read_csv(DATA_URL)
-	return data
-
-def write():
 	st.title("Salary Converter")
 	st.markdown("How much money would you need in London to buy the same things you would buy in New York? Convert salary using purchasing power parity.")
 
-	data = load_data()
+	#data = load_data()
+	data = pd.read_csv(DATA_URL)
 
 	source = st.selectbox("Source country", list(data.Country))
 	salary = st.number_input("Salary in source country's currency")
