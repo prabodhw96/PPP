@@ -10,6 +10,7 @@ Install the following dependencies using pip:
 * numpy
 * pandas
 * streamlit
+* awesome-streamlit
 
 ## Demo
 ![Demo](https://raw.githubusercontent.com/prabodhw96/PPP/master/demo.gif)
