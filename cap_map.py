@@ -30,7 +30,7 @@ def write():
 	                        hover_name="Country", hover_data=["Capital", "Currency", "Currency Name"],
 	                        color_discrete_sequence=["fuchsia"], zoom=10, height=500)
 		fig.update_traces(marker_size=12.5)
-		fig.update_layout(mapbox_style="carto-positron")
+		fig.update_layout(mapbox_style="open-street-map")
 		fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 		st.write(fig)
 	else:
@@ -39,6 +39,6 @@ def write():
 	                        hover_name="Country", hover_data=["Capital", "Currency"],
 	                        color_discrete_sequence=["fuchsia"], zoom=0, height=500)
 		fig.update_traces(marker_size=8)
-		fig.update_layout(mapbox_style="carto-positron")
+		fig.update_layout(mapbox_style="open-street-map")
 		fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 		st.write(fig)
