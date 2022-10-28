@@ -1,6 +1,6 @@
 Country,Currency,Currency Name,2019
 Afghanistan,AFN,Afghani,17.1344642539802
-Albania,ALL,Lek,53.3924648424073
+Albania,ALL,Lek,53.3927890902298
 Algeria,DZD,Algerian Dinar,38.9446523157215
 Angola,AOA,Kwanza,144.052274320717
 Antigua and Barbuda,XCD,East Caribbean Dollar,2.4292312499594
@@ -18,12 +18,12 @@ Belgium,EUR,Euro,0.858237
 Belize,BZD,Belize Dollar,1.4770028591156
 Benin,XOF,CFA Franc BCEAO,210.293480934838
 Bermuda,BMD,Bermudian Dollar,1.57566356658936
-Bhutan,INR,Indian Rupee,20.7143718122245
-Bosnia and Herzegovina,BAM,Convertible Mark,0.800636647587165
+Bhutan,INR,Indian Rupee,20.7142489431146
+Bosnia and Herzegovina,BAM,Convertible Mark,0.800642630300766
 Botswana,BWP,Pula,5.09518022039941
 Brazil,BRL,Brazilian Real,2.39957721799485
 Brunei Darussalam,BND,Brunei Dollar,0.672113839062984
-Bulgaria,BGN,Bulgarian Lev,0.781395244571309
+Bulgaria,BGN,Bulgarian Lev,0.781401083504577
 Burkina Faso,XOF,CFA Franc BCEAO,188.940792491026
 Burundi,BIF,Burundi Franc,605.598658383894
 Cambodia,KHR,Riel,1490.94467056349
@@ -37,9 +37,8 @@ China,CNY,Yuan Renminbi,4.17586852643279
 Colombia,COP,Colombian Peso,1516.439987
 Comoros,KMF,Comoro Franc,213.51823425293
 Costa Rica,CRC,Costa Rican Colon,362.586859
-Croatia,HRK,Croatian Kuna,3.95439600675504
-Cyprus,EUR,Euro,0.683185629100474
-Czech Republic,CZK,Czech Koruna,14.409629
+Croatia,HRK,Croatian Kuna,3.95441808331777
+Cyprus,EUR,Euro,0.683188492434149
 Denmark,DKK,Danish Krone,7.910283
 Djibouti,DJF,Djibouti Franc,103.906143637053
 Dominica,XCD,East Caribbean Dollar,1.84404112562231
@@ -49,7 +48,7 @@ El Salvador,USD,US Dollar,0.499531462490561
 Equatorial Guinea,XAF,CFA Franc BEAC,299.345158917551
 Eritrea,ERN,Nakfa,7.58917328565831
 Estonia,EUR,Euro,0.634563
-Ethiopia,ETB,Ethiopian Birr,10.7417449178418
+Ethiopia,ETB,Ethiopian Birr,10.7391135623298
 Fiji,FJD,Fiji Dollar,1.00133375499336
 Finland,EUR,Euro,0.943695
 France,EUR,Euro,0.84781
@@ -91,12 +90,12 @@ Malawi,MWK,Kwacha,285.204310799053
 Malaysia,MYR,Malaysian Ringgit,1.68148825794486
 Maldives,MVR,Rufiyaa,9.39798736375907
 Mali,XOF,CFA Franc BCEAO,194.128410503582
-Malta,EUR,Euro,0.650365399847563
+Malta,EUR,Euro,0.650368765178405
 Mauritania,MRO,Ouguiya,12.5789067946563
 Mauritius,MUR,Mauritius Rupee,17.8947183361322
 Mexico,MXN,Mexican Peso,10.791409
 Mongolia,MNT,Tugrik,959.940763197944
-Montenegro,EUR,Euro,0.426634585207658
+Montenegro,EUR,Euro,0.426636278722212
 Morocco,MAD,Moroccan Dirham,4.20089370186308
 Mozambique,MZN,Mozambique Metical,22.515518141544
 Myanmar,MMK,Kyat,434.713825972419
@@ -115,19 +114,19 @@ Panama,USD,US Dollar,0.489078237085709
 Papua New Guinea,PGK,Kina,2.80803364479926
 Paraguay,PYG,Guarani,2601.92064630368
 Peru,PEN,Nuevo Sol,1.88443616119538
-Philippines,PHP,Philippine Peso,20.0473853235995
+Philippines,PHP,Philippine Peso,20.0487369542175
 Poland,PLN,Zloty,1.93209
 Portugal,EUR,Euro,0.656951
 Puerto Rico,USD,US Dollar,0.976900546254226
 Qatar,QAR,Qatari Rial,2.76213303459857
-Romania,RON,New Romanian Leu,1.97236710355237
+Romania,RON,New Romanian Leu,1.97238184195778
 Russian Federation,RUB,Russian Ruble,26.783232
 Rwanda,RWF,Rwanda Franc,290.120735792352
 Samoa,WST,Tala,1.86769042285938
 Sao Tome and Principe,STD,Dobra,11.3256267394591
 Saudi Arabia,SAR,Saudi Riyal,1.65774925129416
 Senegal,XOF,CFA Franc BCEAO,233.839496028925
-Serbia,RSD,Serbian Dinar,49.7249413417423
+Serbia,RSD,Serbian Dinar,49.7251634597422
 Seychelles,SCR,Seychelles Rupee,9.16175030824813
 Sierra Leone,SLL,Leone,2718.51226490015
 Singapore,SGD,Singapore Dollar,1.04637466181654
@@ -149,7 +148,6 @@ Togo,XOF,CFA Franc BCEAO,240.263354295022
 Tonga,TOP,Pa’anga,1.74596080381543
 Trinidad and Tobago,TTD,Trinidad and Tobago Dollar,4.11988407760558
 Tunisia,TND,Tunisian Dinar,0.815011176165286
-Turkey,TRY,Turkish Lira,2.258163
 Turkmenistan,TMT,Turkmenistan New Manat,1.66304105729049
 Turks and Caicos Islands,USD,US Dollar,1.24590182304382
 Uganda,UGX,Uganda Shilling,1235.94800180476
@@ -161,4 +159,4 @@ Uruguay,UYU,Peso Uruguayo,27.6636210474211
 Uzbekistan,UZS,Uzbekistan Sum,1521.47524204932
 Vanuatu,VUV,Vatu,118.332883243427
 Zambia,ZMW,Zambian Kwacha,4.75156172033665
-Zimbabwe,ZWL,Zimbabwe Dollar,1.06743295011704
+Zimbabwe,ZWL,Zimbabwe Dollar,0.607933570593595
